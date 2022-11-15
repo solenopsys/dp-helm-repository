@@ -1,0 +1,8 @@
+apiVersion: v2
+name: helm-registry
+version: 0.1.0
+description: Helm-registry
+icon: "http://alexstorm.solenopsys.org/apps/assets/helm-registry.svg"
+
+
+
