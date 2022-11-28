@@ -8,7 +8,7 @@ helm_build_push(){
 }
 
 REGISTRY=registry.alexstorm.solenopsys.org
-NAME=helm-repository
+NAME=helm-registry
 ARCHS="linux/amd64,linux/arm64"
 VER=0.1.1
 
