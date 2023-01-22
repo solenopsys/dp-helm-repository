@@ -1,5 +1,5 @@
 # Helm repo module 
 
-build.sh
+bash build.sh
 
 

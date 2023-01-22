@@ -2,6 +2,8 @@ replicasCount: 1
 fullName: "helm-registry"
 selectorLabel: "helm-registry"
 
+domain: "helm.solenopsys.org"
+
 service:
   port: 8080
   nodePort: 30880
@@ -19,6 +21,6 @@ containers:
     pullPolicy: IfNotPresent
   hs_adapter:
     name: hs-adapter
-    image: registry.local/hs-http-adapter
+    image: registry.solenopsys.org/hs-http-adapter
     pullPolicy: Always
 

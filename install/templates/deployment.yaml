@@ -14,7 +14,6 @@ spec:
         app: {{ .Values.fullName}}
         type: hStreamNode
         hsServiceName: helm
-        hsID: "6"
     spec:
       containers:
         - name: {{ .Values.containers.chartmuseum.name}}
