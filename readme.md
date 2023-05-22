@@ -1,5 +1,4 @@
-# Helm repo module 
-
-bash build.sh
+# Deploy Helm repo  
+ 
 
 
